@@ -1,0 +1,8 @@
+# Development configuration for Netlify CLI
+[dev]
+  command = "npm start" # Command to start the development server
+  port = 8888 # Port for the Netlify dev server
+  targetPort = 3000 # Port of your development server
+  publish = "build" # Directory to serve
+  autoLaunch = true # Automatically open browser
+  framework = "#custom" # Use custom framework
